@@ -1,3 +1,4 @@
+
 import streamlit as st
 import ee
 import geemap
@@ -76,6 +77,4 @@ Map.to_streamlit(height=600)
 #folium_map_html = Map._repr_html_()  # Get the HTML representation of the map
 
 # Display the map in Streamlit using components.html
-#st.components.v1.html(folium_map_html, width=800, height=600)
-
-
+#st.components.v1.html(folium_map_html, width=800, height=600) 
